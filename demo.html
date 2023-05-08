@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>JS Bin</title>
-  <link rel="stylesheet" href="./vanillatree.css">
-  <script src="./vanillatree.js"></script>
+  <title>TinyTree Example</title>
+  <link rel="stylesheet" href="./tinytree.css">
+  <script src="./tinytree.js"></script>
 
 </head>
 <body>
@@ -13,7 +13,7 @@
   <script>
     const main = document.querySelector('main');
     const info = document.querySelector('footer');
-    const tree = new VanillaTree( main, {
+    const tree = new TinyTree.Tree( main, {
     contextmenu: [{
       label: 'Hey',
       action: function(id) {
