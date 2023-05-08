@@ -9,7 +9,7 @@ Tiny, standalone tree view library, meant as a modern replacement to VanillaTree
 Include tinytree.js and tinytree.css in your HTML file.
 ```js
 // treeElement is selector or HTML node, options is optional
-const tree = new VanillaTree(treeElement, options);
+const tree = new TinyTree.Tree(treeElement, options);
 ```
 ## Options
 - ``placeholder`` (string) -- shows if none of leafs is added (optional)
@@ -17,7 +17,7 @@ const tree = new VanillaTree(treeElement, options);
 
 ### Examples
 ```js
-const tree = new VanillaTree('.my-selector', {
+const tree = new TinyTree.Tree(document.querySelector('.my-selector'), {
   placeholder: 'No leaf is added yet',
   contextmenu: [{
     label: 'Label 1',
