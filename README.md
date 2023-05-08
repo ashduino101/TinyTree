@@ -1,18 +1,12 @@
-vanillatree  [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) [![npm version](https://badge.fury.io/js/vanillatree.svg)](https://badge.fury.io/js/vanillatree)
+TinyTree
 ===========
 
-Standalone tree view library
-
-[Live demo](http://jsbin.com/yarikas/1/)
+Tiny, standalone tree view library, meant as a modern replacement to VanillaTree
 
 ![Example Screenshot](http://i.imgur.com/TPlp1ga.png)
 
 ## Usage
-For CJS env run `npm install --save vanillatree`:
-```js
-const VanillaTree = require('vanillatree');
-```
-
+Include tinytree.js and tinytree.css in your HTML file.
 ```js
 // treeElement is selector or HTML node, options is optional
 const tree = new VanillaTree(treeElement, options);
